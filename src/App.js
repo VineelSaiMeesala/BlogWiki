@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import BlogCard from './BlogCard';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function App() {
   const blogdata=[
     {
@@ -26,8 +27,30 @@ function App() {
   })
   return (
     <div className="App">
-      {elements}
-      <h1>Hello</h1>
+      <div className='Headear'>
+        <div className='Logo'>
+          <h2>BlogWiki</h2>
+          <p>Inspired by Information</p>
+        </div>
+        <div className='line'></div>
+      </div>
+      <div className='menu'>
+          <span>Home</span>
+          <span>News</span>
+          <span>Tech</span>
+          <span>Gadgets</span>
+          <span>Weather</span>
+          <span>About</span>
+          <span>Contact</span>
+          <span>Services</span>
+        </div>
+        <div className='search'>
+          <input type='search' placeholder='  Search....'/>
+          <FontAwesomeIcon icon={faSearchengin} size="2xs" style={{color: "#ffffff",}} />
+        </div>
+      <div>
+        {elements}
+      </div>
     </div>
   );
 }
