@@ -16,7 +16,12 @@ function App() {
     {
       id:3,
       title:'Love news',
-      description:'lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek'
+      description:'lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek'
+    },
+    {
+      id:4,
+      title:'Love news',
+      description:'lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek'
     }
   ]
   const elements=blogdata.map((item)=>{

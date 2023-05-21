@@ -36,7 +36,7 @@
     position: absolute;
     top: 4rem;
     box-sizing: border-box;
-    background-color: rgb(44, 163, 167);
+    background-color: rgb(8, 2, 155);
     display: none;
   }
   .menu>span{
@@ -71,24 +71,25 @@
     top: 35rem;
     right: 6rem;
   }
+  .body{
+    position: absolute;
+    top: 5rem;
+  }
   .BlogCard{
   width: 100%;
-  height: auto;
+  height: 10rem;
+  overflow:hidden;
   border-radius:5px;
   box-sizing:border-box;
   box-shadow:0px 2px 5px #ccc;
-  display: none;
+  display: block;
+  padding: 1rem;
 }
 .BlogCard>h3{
   text-align: center;
 }
 .BlogCard>p{
   text-align: center;
-  padding-left: 10px;
-}
-.body{
-  position: absolute;
-  top: 5rem;
 }
 }
 
