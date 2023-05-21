@@ -1,3 +1,112 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body{
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+
+  }
+  .Head-Wrapper{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .Headear{
+    position: absolute;
+  }
+  .Logo{
+    padding: 0.5rem;
+  }
+  .Logo>h2{
+    font-size: 1.2rem;
+  }
+  .Logo>p{
+    font-size: 0.5rem;
+    font-weight: 500;
+    position: absolute;
+    top: 2.5rem;
+    
+  }
+  .line{
+    display: none;
+  }
+  .menu{
+    width: 100%;
+    height: 36.5rem;
+    position: absolute;
+    top: 4rem;
+    box-sizing: border-box;
+    background-color: rgb(44, 163, 167);
+    display: none;
+  }
+  .menu>span{
+    display: flex;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .MobileNav{
+    width: 2rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+  }
+  .searchinput{
+    display: none;
+  }
+  .btn-2{
+    display: none;
+  }
+  .Login{
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    display: none;
+  }
+  .Social{
+    display: none;
+    position: absolute;
+    top: 35rem;
+    right: 6rem;
+  }
+  .BlogCard{
+  width: 100%;
+  height: auto;
+  border-radius:5px;
+  box-sizing:border-box;
+  box-shadow:0px 2px 5px #ccc;
+  display: none;
+}
+.BlogCard>h3{
+  text-align: center;
+}
+.BlogCard>p{
+  text-align: center;
+  padding-left: 10px;
+}
+.body{
+  position: absolute;
+  top: 5rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  /* for Windows */
 body{
   padding: 0px;
   margin: 0px;
@@ -49,7 +158,7 @@ body{
 .search{
   position: absolute;
   top: 12px;
-  left: 710px;
+  left: 990px;
 }
 .search >input{
   width: 190px;
@@ -68,6 +177,24 @@ body{
   border-radius: 17.5px;
   background-color: transparent;
 }
+.Login{
+  position: absolute;
+  top: 15px;
+  left: 1200px;
+}
+.icon{
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+.Social{
+  position: absolute;
+  top: 0px;
+  left: 1300px;
+}
+.Social>p{
+  color: white;
+}
 .BlogCard{
   width: 500px;
   height: 100px;
@@ -82,4 +209,8 @@ body{
 .BlogCard>p{
   text-align: center;
   padding-left: 10px;
+}
+.MobileNav{
+  display: none;
+}
 }
