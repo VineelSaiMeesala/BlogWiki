@@ -1,0 +1,30 @@
+.BlogCard1{
+    padding: 10px;
+    margin: 50px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+Label{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+.blog{
+    position: relative;
+    right: -18px;
+}
+.option{
+    position: relative;
+    right: -17px;
+}
+.navi{
+    position: relative;
+    right: 0px;
+}
+h2{
+    text-align: center;
+}
