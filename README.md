@@ -16,7 +16,7 @@ This is a blog website developed using React.js. It allows users to read and pub
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/blog-website.git
+   git clone https://github.com/VineelSaiMeesala/LDReactApp.git
    ```
 
 2. Navigate to the project directory:
