@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css'
+import '../App.css'
 var NavigationBar=function(){
     return(
     <div className='Head-Wrapper'>
