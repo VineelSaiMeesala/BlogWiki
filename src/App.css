@@ -4,18 +4,21 @@
     padding: 0px;
     margin: 0px;
     background-color: aliceblue;
+    overflow: hidden;
 
   }
   .Head-Wrapper{
     width: 100%;
     height: auto;
     position: relative;
+    box-sizing: border-box;
   }
   .Headear{
     position: absolute;
   }
   .Logo{
     padding: 0.5rem;
+    box-sizing: border-box;
   }
   .Logo>h2{
     font-size: 1.2rem;
@@ -31,10 +34,11 @@
     display: none;
   }
   .menu{
-    width: 100%;
+    width: 95%;
     height: 36.5rem;
     position: relative;
     top: 4rem;
+    left: 7px;
     box-sizing: border-box;
     background-color: rgb(8, 2, 155);
     display: none;
@@ -75,22 +79,6 @@
     display: inline-block;
     transform:translateY(50px);
   }
-  .BlogCard{
-  width: 99%;
-  height: 10rem;
-  overflow:hidden;
-  border-radius:1rem;
-  box-sizing:border-box;
-  box-shadow:0px 2px 5px #ccc;
-  display: block;
-  padding: 1rem;
-}
-.BlogCard>h3{
-  text-align: center;
-}
-.BlogCard>p{
-  text-align: center;
-}
 }
 
 
@@ -195,21 +183,6 @@ body{
 }
 .Social>p{
   color: white;
-}
-.BlogCard{
-  width: 500px;
-  height: 100px;
-  margin:auto;
-  border-radius:5px;
-  box-sizing:border-box;
-  box-shadow:0px 2px 5px #ccc;
-}
-.BlogCard>h3{
-  text-align: center;
-}
-.BlogCard>p{
-  text-align: center;
-  padding-left: 10px;
 }
 .MobileNav{
   display: none;

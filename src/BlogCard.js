@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './BlogCard.css'
 const BlogCard = (prop)=>{
     return (
         <div className='BlogCard'>

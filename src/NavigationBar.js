@@ -1,7 +1,5 @@
 import React from "react";
-import './mobileview.css'
 import './App.css'
-import BlogCard from "./BlogCard";
 var NavigationBar=function(){
     return(
     <div className='Head-Wrapper'>
@@ -59,21 +57,19 @@ const clicked = function(){
     var btn2 = document.getElementById('btn2')
     var Login=document.getElementById('Login')
     var Social=document.getElementById('Social')
-    // var blogcard=document.getElementById('BlogCard')
+    var blogcard=document.getElementById('BlogCard')
     if (menu.style.display === "block") {
         menu.style.display = "none";
         btn.style.display="block"
         btn2.style.display="none"
         Login.style.display="none"
         Social.style.display="none"
-        // blogcard.style.display='block'
       } else {
         menu.style.display = "block";
         btn.style.display="none"
         btn2.style.display="block"
         Login.style.display="block"
         Social.style.display="block"
-        // blogcard.style.display='none'
       }
 }
 export default NavigationBar;

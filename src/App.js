@@ -19,7 +19,7 @@ function App() {
       id:3,
       title:'Love news',
       img:'https://th.bing.com/th/id/OIP.aRx3JR_qNEPtkCkl4aL_ZQHaEK?w=306&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      description:'lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek'
+      description:'lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor orem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor vresdrek lorem epsum dollor resdrek lorem epsum dollor resdrek lorem epsum dollor resdrek'
     },
     {
       id:4,
