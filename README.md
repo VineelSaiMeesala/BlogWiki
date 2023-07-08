@@ -107,5 +107,3 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 - [Other resources used or mentioned in the project]
 
 ---
-
-Feel free to customize this README file according to your project's specific requirements and include additional sections or information as needed.
