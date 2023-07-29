@@ -1,0 +1,13 @@
+body {
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+.FooterWrapper {
+  width: 100%;
+  background-color: black;
+  height: 120px;
+  color: white;
+}

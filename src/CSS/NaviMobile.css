@@ -1,0 +1,72 @@
+@media only screen and (max-width: 768px) {
+  /* Styles for 6.5-inch screens */
+  body {
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+    overflow: hidden;
+  }
+  .Head-Wrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .Headear {
+    transform: translateY(-1rem);
+  }
+  .Logo {
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  .Logo > h2 {
+    font-size: 1.2rem;
+  }
+  .Logo > p {
+    font-size: 0.5rem;
+    font-weight: 500;
+    transform: translateY(-1rem);
+  }
+  .line {
+    display: none;
+  }
+  .menu {
+    width: 95%;
+    height: 42rem;
+    transform: translate(0.6rem, -2rem);
+    box-sizing: border-box;
+    background-color: rgb(8, 2, 155);
+    display: none;
+  }
+  .menu > span {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .MobileNav {
+    width: 2rem;
+    height: auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+  }
+  .searchinput {
+    display: none;
+  }
+  .btn-2 {
+    display: none;
+  }
+  .Login {
+    transform: translate(20rem, -40rem);
+    display: none;
+  }
+  .Social {
+    display: none;
+    transform: translate(9rem, -15rem);
+  }
+  .DarkModeWrapper {
+    display: none;
+  }
+}

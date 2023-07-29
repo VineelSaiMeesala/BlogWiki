@@ -1,0 +1,73 @@
+body {
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+@media only screen and (min-width: 768px) {
+  /* for Windows */
+  .BlogCard {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 158px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 44px -21px rgba(234, 1, 212, 0.9);
+    box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #image > img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  #image {
+    margin-top: 14px;
+    margin-left: 5px;
+    width: 7.8rem;
+    height: 80%;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  #BlogHead {
+    width: 10rem;
+    transform: translate(8rem, -140px);
+  }
+
+  #BlogHead > h3 {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #BlogPara {
+    width: 90%;
+    transform: translate(7.9rem, -160px);
+  }
+  #BlogPara > p {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #BlogBtn {
+    transform: translate(-1rem, -5rem);
+  }
+  #BlogBtn > button {
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    background: linear-gradient(
+      90deg,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+    border-radius: 5px;
+    display: none;
+  }
+}
