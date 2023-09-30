@@ -50,6 +50,7 @@
     transform: translate(1.4rem, -2rem);
   }
   #BlogBtn > button {
+    display:none;
     border: none;
     width: 6rem;
     height: 2rem;

@@ -1,7 +1,16 @@
 import React from "react";
 import "../CSS/Footer.css";
 const Footer = () => {
+  console.log("Called")
   return (
+    /** 
+     * hello
+    ** Github
+    *! hehhe
+    *? hi
+    * TODO: bye
+    * @param line
+    */
     <div className="FooterWrapper">
       <div className="Head-Wrapper">
         <div className="Headear">
